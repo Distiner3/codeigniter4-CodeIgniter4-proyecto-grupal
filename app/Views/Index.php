@@ -18,12 +18,12 @@
         <h1>Menú Principal</h1>
 
         <div class="list-group">
-            <a href="<?= base_url('clientes') ?>" class="list-group-item list-group-item-action active" aria-current="true">Productos</a>
-            <a href="#" class="list-group-item list-group-item-action">Sucursales</a>
-            <a href="#" class="list-group-item list-group-item-action">Detalle facturas</a>
-            <a href="#" class="list-group-item list-group-item-action">Administradores</a>
-            <a href="#" class="list-group-item list-group-item-action">Vendedores</a>
-            <a href="#" class="list-group-item list-group-item-action">Clientes</a>
+            <a href="<?= base_url('clientes') ?>" class="list-group-item list-group-item-action active" aria-current="true">Productos Diego</a>
+            <a href="#" class="list-group-item list-group-item-action">Sucursales Diego</a>
+            <a href="#" class="list-group-item list-group-item-action">Detalle facturas Byron</a>
+            <a href="#" class="list-group-item list-group-item-action">Administradores Byron</a>
+            <a href="#" class="list-group-item list-group-item-action">Vendedores Wendy</a>
+            <a href="#" class="list-group-item list-group-item-action">Clientes Wendy</a>
         </div>
     </div>
 
