@@ -50,23 +50,23 @@
                                 <input type="text" class="form-control" name="txt_id" placeholder="ID del producto">
                             </div>
                             <div class="mb-3">
-                                <label for="txt_marca" class="form-label">Nombre</label>
+                                <label for="txt_marca" class="form-label">Marca</label>
                                 <input type="text" class="form-control" name="txt_marca" placeholder="Nombre de la marca">
                             </div>
                             <div class="mb-3">
-                                <label for="txt_talla" class="form-label">Apellido</label>
+                                <label for="txt_talla" class="form-label">Talla</label>
                                 <input type="text" class="form-control" name="txt_talla" placeholder="Nombre de la talla">
                             </div>
                             <div class="mb-3">
-                                <label for="txt_color" class="form-label">Fecha de nacimiento</label>
+                                <label for="txt_color" class="form-label">Color</label>
                                 <input type="text" class="form-control" name="txt_color" placeholder="Nombre del color">
                             </div>
                             <div class="mb-3">
-                                <label for="txt_descripcion" class="form-label">fecha de suscripción</label>
+                                <label for="txt_descripcion" class="form-label">Descripción</label>
                                 <input type="text" class="form-control" name="txt_descripcion" placeholder="Descripción">
                             </div>
                             <div class="mb-3">
-                                <label for="txt_precio" class="form-label">Correo</label>
+                                <label for="txt_precio" class="form-label">Precio</label>
                                 <input type="text" class="form-control" name="txt_precio" placeholder="Precio">
                             </div>
 
