@@ -53,3 +53,8 @@ $routes->get('/', 'Home::index');
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
+$routes->get('productos', 'Productos::verProductos');
+$routes->get('agregar_producto', 'Productos::agregar_productos');
+$routes->get('eliminar_producto/(:num)', 'Productos::eliminar_producto/$1');
+$routes->get('actualizar_producto/(:num)', 'Productos::actualizar_producto/$1');
+$routes->get('actualizar_producto','Productos::actualizarProducto');
