@@ -22,8 +22,6 @@
             <a href="<?= base_url('sucursales') ?>" class="list-group-item list-group-item-action" aria-current="true">Sucursales Diego</a>
             <a href="#" class="list-group-item list-group-item-action">Detalle facturas Byron</a>
             <a href="#" class="list-group-item list-group-item-action">Administradores Byron</a>
-            <a href="#" class="list-group-item list-group-item-action">Vendedores Wendy</a>
-            <a href="#" class="list-group-item list-group-item-action">Clientes Wendy</a>
         </div>
     </div>
 
