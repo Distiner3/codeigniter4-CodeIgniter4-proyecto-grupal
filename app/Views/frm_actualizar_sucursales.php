@@ -15,31 +15,31 @@
 
                 <div class="mb-3">
                     <label for="txt_id" class="form-label">ID</label>
-                    <input type="text" class="form-control" name="txt_id" value="<?=$productodb['id_sucursal']?>" readonly>
+                    <input type="text" class="form-control" name="txt_id" value="<?=$sucursaldb['id_sucursal']?>" readonly>
                 </div>
                 <div class="mb-3">
                     <label for="txt_nombre" class="form-label">Nombre Sucursal</label>
-                    <input type="text" class="form-control" name="txt_nombre" value="<?=$productodb['nombre_sucursal']?>">
+                    <input type="text" class="form-control" name="txt_nombre" value="<?=$sucursaldb['nombre_sucursal']?>">
                 </div>
                 <div class="mb-3">
                     <label for="txt_direccion" class="form-label">Direccion Sucursal</label>
-                    <input type="text" class="form-control" name="txt_direccion" value="<?=$productodb['direccion_sucursal']?>">
+                    <input type="text" class="form-control" name="txt_direccion" value="<?=$sucursaldb['direccion_sucursal']?>">
                 </div>
                 <div class="mb-3">
                     <label for="txt_telefono" class="form-label">Telefono Sucursal</label>
-                    <input type="text" class="form-control" name="txt_telefono" value="<?=$productodb['telefono_sucursal']?>">
+                    <input type="text" class="form-control" name="txt_telefono" value="<?=$sucursaldb['telefono_sucursal']?>">
                 </div>
                 <div class="mb-3">
                     <label for="txt_email" class="form-label">Email Sucursal</label>
-                    <input type="text" class="form-control" name="txt_email" value="<?=$productodb['email_sucursal']?>">
+                    <input type="text" class="form-control" name="txt_email" value="<?=$sucursaldb['email_sucursal']?>">
                 </div>
                 <div class="mb-3">
                     <label for="txt_nit" class="form-label">Nit</label>
-                    <input type="text" class="form-control" name="txt_nit" value="<?=$productodb['nit']?>">
+                    <input type="text" class="form-control" name="txt_nit" value="<?=$sucursaldb['nit']?>">
                 </div>
                 <div class="mb-3">
                     <label for="txt_admin" class="form-label">Id Administrador</label>
-                    <input type="text" class="form-control" name="txt_admin" value="<?=$productodb['id_admin']?>">
+                    <input type="text" class="form-control" name="txt_admin" value="<?=$sucursaldb['id_admin']?>">
                 </div>
                 <div class="mb-3">
                     <input type="submit" class="form-control" id="formGroupExampleInput" >

@@ -1,9 +1,12 @@
-<?php 
+<?php
+
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\Sucursal;
-class Sucursales extends Controller{
+
+class Sucursales extends Controller
+{
 
     public function verSucursales()
     {
@@ -33,12 +36,11 @@ class Sucursales extends Controller{
             'email_sucursal' => $email,
             'nit' => $nit,
             'id_admin' => $id_admin,
-            ];
+        ];
         $sucursal->insert($datos);
         $registros['sucursales'] = $sucursal->findAll();
 
         return view('Sucursales', $registros);
-
     }
 
     public function eliminar_sucursal($id = null)
@@ -58,7 +60,7 @@ class Sucursales extends Controller{
 
         $registros['sucursales'] = $sucursal->findAll();
 
-        return view('frm_actualizar_sucursales',$datos);
+        return view('frm_actualizar_sucursales', $datos);
     }
 
     public function actualizarSucursal()
@@ -74,16 +76,15 @@ class Sucursales extends Controller{
         $id_admin = $this->request->getVar('txt_admin');
 
         $datos = [
-            'id_sucursal' => $id,
             'nombre_sucursal' => $nombre,
             'direccion_sucursal' => $direccion,
             'telefono_sucursal' => $telefono,
             'email_sucursal' => $email,
             'nit' => $nit,
             'id_admin' => $id_admin
-            ];
-            $sucursal->update($id,$datos);
-            $registros['sucursales'] = $sucursal->findAll();
+        ];
+        $sucursal->update($id, $datos);
+        $registros['sucursales'] = $sucursal->findAll();
 
         return view('Sucursales', $registros);
     }

@@ -74,7 +74,7 @@
                                 <input type="text" class="form-control" name="txt_admin" placeholder="ID del Admin">
                             </div>
                             <div class="mb-3">
-                            <input type="submit" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                                <input type="submit" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
                             </div>
 
                         </form>

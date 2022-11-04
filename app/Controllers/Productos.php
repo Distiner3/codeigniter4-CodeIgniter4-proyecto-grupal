@@ -1,9 +1,12 @@
-<?php 
+<?php
+
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\Producto;
-class Productos extends Controller{
+
+class Productos extends Controller
+{
 
     public function verProductos()
     {
@@ -31,12 +34,11 @@ class Productos extends Controller{
             'color' => $colores,
             'descripcion' => $descripcion,
             'precio' => $precio,
-            ];
+        ];
         $producto->insert($datos);
         $registros['productos'] = $producto->findAll();
 
         return view('Productos', $registros);
-
     }
 
     public function eliminar_producto($id = null)
@@ -56,7 +58,7 @@ class Productos extends Controller{
 
         $registros['productos'] = $producto->findAll();
 
-        return view('frm_actualizar_productos',$datos);
+        return view('frm_actualizar_productos', $datos);
     }
 
     public function actualizarProducto()
@@ -77,7 +79,7 @@ class Productos extends Controller{
             'descripcion' => $descripcion,
             'precio' => $precio
         ];
-        $producto->update($id,$datos);
+        $producto->update($id, $datos);
         $registros['productos'] = $producto->findAll();
 
         return view('Productos', $registros);

@@ -432,3 +432,36 @@ in APPPATH\Views\frm_actualizar_sucursales.php on line 18.
  7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sucursales))
  8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 01:38:07 --> Undefined variable $productodb
+in APPPATH\Views\frm_actualizar_sucursales.php on line 18.
+ 1 APPPATH\Views\frm_actualizar_sucursales.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productodb', 'APPPATH\\Views\\frm_actualizar_sucursales.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frm_actualizar_sucursales.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('frm_actualizar_sucursales', [], true)
+ 5 APPPATH\Controllers\Sucursales.php(61): view('frm_actualizar_sucursales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Sucursales->actualizar_sucursal('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sucursales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 01:38:19 --> Undefined variable $productodb
+in APPPATH\Views\frm_actualizar_sucursales.php on line 18.
+ 1 APPPATH\Views\frm_actualizar_sucursales.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productodb', 'APPPATH\\Views\\frm_actualizar_sucursales.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frm_actualizar_sucursales.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('frm_actualizar_sucursales', [], true)
+ 5 APPPATH\Controllers\Sucursales.php(61): view('frm_actualizar_sucursales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Sucursales->actualizar_sucursal('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sucursales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 01:42:09 --> Undefined variable $productodb
+in APPPATH\Views\frm_actualizar_sucursales.php on line 18.
+ 1 APPPATH\Views\frm_actualizar_sucursales.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productodb', 'APPPATH\\Views\\frm_actualizar_sucursales.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frm_actualizar_sucursales.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('frm_actualizar_sucursales', [], true)
+ 5 APPPATH\Controllers\Sucursales.php(63): view('frm_actualizar_sucursales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Sucursales->actualizar_sucursal('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sucursales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
