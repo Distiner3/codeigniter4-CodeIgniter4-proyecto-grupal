@@ -58,3 +58,9 @@ $routes->get('agregar_producto', 'Productos::agregar_productos');
 $routes->get('eliminar_producto/(:num)', 'Productos::eliminar_producto/$1');
 $routes->get('actualizar_producto/(:num)', 'Productos::actualizar_producto/$1');
 $routes->get('actualizar_producto','Productos::actualizarProducto');
+
+$routes->get('sucursales', 'Sucursales::verSucursales');
+$routes->get('agregar_sucursal', 'Sucursales::agregar_sucursales');
+$routes->get('eliminar_sucursal/(:num)', 'Sucursales::eliminar_sucursal/$1');
+$routes->get('actualizar_sucursal/(:num)', 'Sucursales::actualizar_sucursal/$1');
+$routes->get('actualizar_sucursal','Sucursales::actualizarSucursal');

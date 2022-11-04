@@ -19,7 +19,7 @@
 
         <div class="list-group">
             <a href="<?= base_url('productos') ?>" class="list-group-item list-group-item-action active" aria-current="true">Productos Diego</a>
-            <a href="#" class="list-group-item list-group-item-action">Sucursales Diego</a>
+            <a href="<?= base_url('sucursales') ?>" class="list-group-item list-group-item-action" aria-current="true">Sucursales Diego</a>
             <a href="#" class="list-group-item list-group-item-action">Detalle facturas Byron</a>
             <a href="#" class="list-group-item list-group-item-action">Administradores Byron</a>
             <a href="#" class="list-group-item list-group-item-action">Vendedores Wendy</a>

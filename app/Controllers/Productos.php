@@ -75,7 +75,7 @@ class Productos extends Controller{
             'talla' => $talla,
             'colores' => $colores,
             'descripcion' => $descripcion,
-            'precio' => $precio,
+            'precio' => $precio
         ];
         $producto->update($id,$datos);
         $registros['productos'] = $producto->findAll();

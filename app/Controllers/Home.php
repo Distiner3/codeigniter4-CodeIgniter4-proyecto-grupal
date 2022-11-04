@@ -13,4 +13,9 @@ class Home extends BaseController
     {
         return view('Productos');
     }
+
+    public function ver_Sucursales()
+    {
+        return view('Sucursales');
+    }
 }
