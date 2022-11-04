@@ -30,7 +30,7 @@
         <h1>Productos</h1>
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-primary mt-3 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Agregar nuevo producto
         </button>
 
@@ -85,7 +85,7 @@
 
 
 
-        <table class="table table-success table-striped" id="dataTable">
+        <table class="table table-success table-striped pt-3 pb-3" id="dataTable">
             <thead>
                 <tr>
                     <th>Id</th>
@@ -94,6 +94,7 @@
                     <th>Colores</th>
                     <th>Descripcion</th>
                     <th>Precio</th>
+                    <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
