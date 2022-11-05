@@ -19,4 +19,9 @@ class Home extends BaseController
         return view('Sucursales');
     }
 
+    public function ver_Admins()
+    {
+        return view('Admins');
+    }
+
 }

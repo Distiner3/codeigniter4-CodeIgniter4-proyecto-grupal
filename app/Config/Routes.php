@@ -65,3 +65,19 @@ $routes->get('agregar_sucursal', 'Sucursales::agregar_sucursales');
 $routes->get('eliminar_sucursal/(:num)', 'Sucursales::eliminar_sucursal/$1');
 $routes->get('actualizar_sucursal/(:num)', 'Sucursales::actualizar_sucursal/$1');
 $routes->get('actualizar_sucursal','Sucursales::actualizarSucursal');
+
+//Admins
+
+$routes->get('admin', 'Admins::verAdmins');
+$routes->get('agregar_admin', 'Admins::agregar_admins');
+$routes->get('eliminar_admin/(:num)', 'Admins::eliminar_admin/$1');
+$routes->get('actualizar_admin/(:num)', 'Admins::actualizar_admin/$1');
+$routes->get('actualizar_admin','Admins::actualizarAdmin');
+
+//  Detalles Facturas 
+
+$routes->get('detalleFactura', 'Productos::verProductos');
+$routes->get('agregar_detFactura', 'Productos::agregar_productos');
+$routes->get('eliminar_detFactura/(:num)', 'Productos::eliminar_producto/$1');
+$routes->get('actualizar_detFactura/(:num)', 'Productos::actualizar_producto/$1');
+$routes->get('actualizar_producto','Productos::actualizarProducto');
