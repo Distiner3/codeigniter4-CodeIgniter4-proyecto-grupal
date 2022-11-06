@@ -76,8 +76,8 @@ $routes->get('actualizar_admin','Admins::actualizarAdmin');
 
 //  Detalles Facturas 
 
-$routes->get('detalleFactura', 'Productos::verProductos');
-$routes->get('agregar_detFactura', 'Productos::agregar_productos');
-$routes->get('eliminar_detFactura/(:num)', 'Productos::eliminar_producto/$1');
-$routes->get('actualizar_detFactura/(:num)', 'Productos::actualizar_producto/$1');
-$routes->get('actualizar_producto','Productos::actualizarProducto');
+$routes->get('detalleFactura', 'Detalle_Facturas::verDetalles');
+$routes->get('agregar_detalle', 'Detalle_Facturas::agregar_detalle');
+$routes->get('eliminar_detalle/(:num)', 'Detalle_Facturas::eliminar_detalle/$1');
+$routes->get('actualizar_detalle/(:num)', 'Detalle_Facturas::actualizar_detalle/$1');
+$routes->get('actualizar_detalle','Detalle_Facturas::actualizarDetalle');

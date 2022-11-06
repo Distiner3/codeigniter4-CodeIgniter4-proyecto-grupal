@@ -24,4 +24,9 @@ class Home extends BaseController
         return view('Admins');
     }
 
+    public function ver_Detalles()
+    {
+        return view('Detalle_Facturas');
+    }
+
 }
