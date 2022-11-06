@@ -15,27 +15,27 @@
 
                 <div class="mb-3">
                     <label for="txt_id" class="form-label">Correlativo</label>
-                    <input type="text" class="form-control" name="txt_id" value="<?=$detalle_facturas['correlativo']?>" readonly>
+                    <input type="text" class="form-control" name="txt_correlativo" value="<?=$detalle_facturas['correlativo']?>" readonly>
                 </div>
                 <div class="mb-3">
                     <label for="txt_marca" class="form-label">ID Producto</label>
-                    <input type="text" class="form-control" name="txt_nombre" value="<?=$detalle_facturas['id_producto']?>">
+                    <input type="text" class="form-control" name="txt_id_producto" value="<?=$detalle_facturas['id_producto']?>">
                 </div>
                 <div class="mb-3">
                     <label for="txt_talla" class="form-label">ID Sucursal</label>
-                    <input type="text" class="form-control" name="txt_apellido" value="<?=$detalle_facturas['id_sucursal']?>">
+                    <input type="text" class="form-control" name="txt_id_sucursal" value="<?=$detalle_facturas['id_sucursal']?>">
                 </div>
                 <div class="mb-3">
                     <label for="txt_colores" class="form-label">Cantidad</label>
-                    <input type="text" class="form-control" name="txt_telefono" value="<?=$detalle_facturas['cantidad']?>">
+                    <input type="text" class="form-control" name="txt_cantidad" value="<?=$detalle_facturas['cantidad']?>">
                 </div>
                 <div class="mb-3">
                     <label for="txt_descripcion" class="form-label">Precio</label>
-                    <input type="text" class="form-control" name="txt_usuario" value="<?=$detalle_facturas['precio']?>">
+                    <input type="text" class="form-control" name="txt_precio" value="<?=$detalle_facturas['precio']?>">
                 </div>
                 <div class="mb-3">
                     <label for="txt_precio" class="form-label">No. Venta</label>
-                    <input type="text" class="form-control" name="txt_contraseña" value="<?=$detalle_facturas['no_venta']?>">
+                    <input type="text" class="form-control" name="txt_no_venta" value="<?=$detalle_facturas['no_venta']?>">
                 </div>
                 <div class="mb-3">
                     <input type="submit" class="form-control" id="formGroupExampleInput" >
