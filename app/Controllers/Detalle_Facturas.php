@@ -72,7 +72,7 @@ class Detalle_Facturas extends Controller
         $detalle = new Detalle_Factura();
         $datos['detalle_facturas'] = $detalle->where('correlativo', $id)->first();
         $registros['detalle_facturas'] = $detalle->findAll();
-        return view('frml_actualizar_detalles', $registros);
+        return view('frml_actualizar_detalles', $datos);
     }
 
     public function actualizarDetalle()
@@ -94,8 +94,13 @@ class Detalle_Facturas extends Controller
             'precio' => $precio,
             'no_venta' => $no_venta
         ];
+        $producto = new Producto();
+        $sucursal = new Sucursal();
         $detalle->update($correlativo,$datos);
         $registros['detalle_facturas'] = $detalle->findAll();
+        
+        $registros['productos'] = $producto->findAll();
+        $registros['sucursales'] = $sucursal->findAll();
         return view('Detalle_Facturas', $registros);
     }
 }
