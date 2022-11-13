@@ -20,8 +20,6 @@
         <div class="list-group">
             <a href="<?= base_url('productos') ?>" class="list-group-item list-group-item-action active" aria-current="true">Productos Diego</a>
             <a href="<?= base_url('sucursales') ?>" class="list-group-item list-group-item-action" aria-current="true">Sucursales Diego</a>
-            <a href="<?= base_url('detalleFactura') ?>" class="list-group-item list-group-item-action" aria-current="true">Detalle facturas Byron</a>
-            <a href="<?= base_url('admin') ?>" class="list-group-item list-group-item-action" aria-current="true">Administradores Byron</a>
         </div>
 
         <button type="button" class="btn btn-danger" onclick="location.href='lo'">Log Out</button>

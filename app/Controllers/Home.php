@@ -8,6 +8,10 @@ class Home extends BaseController
     {
         return view('index');
     }
+    public function index_u()
+    {
+        return view('index_users');
+    }
 
     public function ver_Productos()
     {
@@ -27,6 +31,26 @@ class Home extends BaseController
     public function ver_Detalles()
     {
         return view('Detalle_Facturas');
+    }
+
+    public function login_i()
+    {
+        return view('Login');
+    }
+
+    public function login_logic(){
+        $user =  $_POST['txt_user'];
+        $pass =  $_POST['txt_password'];
+
+        if ($user == "admin" and $pass == "1234"){
+            return view('index');
+        }
+
+        if ($user == "user" and $pass =="4321"){
+            return view('index_users');
+        }
+
+        return view('index');
     }
 
 }

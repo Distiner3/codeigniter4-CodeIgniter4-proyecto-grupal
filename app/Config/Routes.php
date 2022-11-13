@@ -35,7 +35,7 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Home::login_i');
 
 /*
  * --------------------------------------------------------------------
@@ -81,3 +81,11 @@ $routes->get('agregar_detalle', 'Detalle_Facturas::agregar_detalle');
 $routes->get('eliminar_detalle/(:num)', 'Detalle_Facturas::eliminar_detalle/$1');
 $routes->get('actualizar_detalle/(:num)', 'Detalle_Facturas::actualizar_detalle/$1');
 $routes->get('actualizar_detalle','Detalle_Facturas::actualizarDetalle');
+
+$routes->get('index_admin','Home::index');
+$routes->get('index_user','Home::index_u');
+
+$routes->post('loginaso','Home::login_logic');
+
+$routes->get('lo', 'Home::login_i');
+
