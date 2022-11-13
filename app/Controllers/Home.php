@@ -42,15 +42,15 @@ class Home extends BaseController
         $user =  $_POST['txt_user'];
         $pass =  $_POST['txt_password'];
 
-        if ($user == "admin" and $pass == "1234"){
+        if ($user == "admin" && $pass == "1234"){
             return view('index');
         }
 
-        if ($user == "user" and $pass =="4321"){
+        if ($user == "user" && $pass =="4321"){
             return view('index_users');
         }
 
-        return view('index');
+        return view('login');
     }
 
 }
